@@ -1,41 +1,51 @@
-body{
+body {
     background-color: aliceblue;
-    margin: 0 auto;
+    margin: 2rem 3rem;
     padding: 20px;
     box-sizing: border-box;
 }
 
-input[type="text"]{
+input[type="text"] {
     width: 300px;
     padding: 16px;
     font-size: 21px;
+    border-radius: 5px;
+    border: 1px solid rgb(218, 218, 218);
 }
 
 form {
     text-align: center;
 }
 
-button{
-    padding: 16px;
-    background: green;
+button {
+    padding: 17px;
+    background: rgb(65, 155, 65);
     color: #fff;
     cursor: pointer;
     font-size: 21px;
+    border-radius: 25% 25%;
+    border: none;
 }
 
-ul{
+ul {
     list-style-type: none;
     text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
 }
 
-li{
-    width: 100%;
+li {
+    width: 35%;
     padding: 21px;
     box-sizing: border-box;
     cursor: pointer;
+    background-color: rgba(149, 149, 247, 0.529);
+    margin-bottom: 1rem;
 }
 
-li:hover{
+li:hover {
     text-decoration: line-through;
-    background: grey;
+    background: rgb(215, 215, 215);
 }
